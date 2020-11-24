@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Лабораторная работа №3</title>
+  <link rel="stylesheet" href="stylelb3.css">
+	<style>
+	img{
+		width: 700px;
+		height: 500px;
+		margin-top: 20px;
+		margin-left: 300px;
+	}
+	</style>
+</head>
+<body>
+  <img id="img" src="34.jpg"/>
+	<p class="nyc" align="center">Введите время в секундах: <input class="inp" align="center" type="number" name="x" id="x"></p>
+	<button class="switch_on" align="center" onclick="startTimer(document.getElementById('x').value)">Установить интервал</button>
+	<button class="switch_off" align="center" onclick="startTimer(0)">Остановить</button>
+	<script src="lb3.js"></script>
+</body>
+</html>

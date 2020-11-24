@@ -1,0 +1,26 @@
+.switch_on{
+    color: brown; 
+    font-size: 15px;
+    font-weight: bold;
+margin:0 auto;
+display:block;
+}
+.switch_off{
+    color: brown; 
+    font-size: 15px;
+    font-weight: bold;
+	margin:0 auto;
+display:block;
+}
+.inp{ 
+	background-color: beige;
+	font-size: 15px;
+    font-weight: bold;
+}
+.nyc{
+    font-style: italic;
+    color: brown;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
