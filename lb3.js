@@ -22,8 +22,8 @@ function displayNextImage() {
     clearInterval(myinterval);
     }
 var time = new Date().getHours();
-if (time < 12) {
+if (time < 13) {
 document.body.style.backgroundImage="url('IMG-20190202-WA0043.jpg')";
-}else if (time > 12) {
+}else if (time > 13) {
 document.body.style.backgroundImage="url('IMG-20190202-WA0035.jpg')";
 };
